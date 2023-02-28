@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+
+        h1:first-child { background-color: blanchedalmond; color: grey;}
+        h1:nth-child(4) { background-color: black; color: grey;}
+        h1::first-letter { color: red;}
+        p::first-line { background-color: aquamarine; color: black; font-weight: bold;}
+
+        h1::after { content: "sdhfghjgfhs";}
+        ::selection { background: black; color: white;}
+    </style>
+</head>
+<body>
+    <h1>Krishna Zaveri</h1>
+    <h1>Krishna Zaveri</h1>
+    <h1>Krishna Zaveri</h1>
+    <h1>Krishna Zaveri</h1>
+    <h1>Krishna Zaveri</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+        Numquam perspiciatis quisquam architecto iure ut aspernatur minima quia nulla dignissimos, <br>
+        sapiente exercitationem delectus perferendis quis culpa ipsa tempore ea sed autem.          </p>
+</body>
+</html>
